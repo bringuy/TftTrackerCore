@@ -1,0 +1,10 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\Users\Brian\Desktop\TFTracker\TftTrackerCore\tfttracker-backend\tftproject\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# File with file paths
+/../../../../../../../../../:\Users\Brian\Desktop\TFTracker\TftTrackerCore\tfttracker-backend\tftproject\enemies\views.py
