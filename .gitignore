@@ -1,3 +1,3 @@
 # Ignoring main file with local file path
 tfttracker-backend/tftproject/enemies/views.py
-tfttracker-frontend/node_modules/
+node_modules/
