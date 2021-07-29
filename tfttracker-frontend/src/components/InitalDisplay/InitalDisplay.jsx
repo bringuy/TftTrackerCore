@@ -7,7 +7,7 @@ const axios = require("axios").default;
 const InitalDisplay = ({ changePage }) => {
   const [username, setUsername] = useState("");
   const [resolution, setResolution] = useState("");
-  const [local_url, setLocal_url] = useState("http://127.0.0.1:8000/");
+  const [local_url, setLocal_url] = useState("http://localhost:3000/");
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (event) => {
