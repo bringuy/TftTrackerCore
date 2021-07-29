@@ -1,0 +1,22 @@
+{
+  "name": "tftracker-backend-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "postgres": "^1.0.2",
+    "postgresql": "^0.0.1",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
