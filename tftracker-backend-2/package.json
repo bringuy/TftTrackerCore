@@ -6,6 +6,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "fs": "0.0.1-security",
     "pg": "^8.6.0",
     "postgres": "^1.0.2",
     "postgresql": "^0.0.1",
