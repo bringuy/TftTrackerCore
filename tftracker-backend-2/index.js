@@ -2,6 +2,10 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 
+//activate environment
+const dotenv = require('dotenv');
+dotenv.config();
+
 const enemyRouter = require('./routes/enemies')
 const playerRouter = require('./routes/player')
 
