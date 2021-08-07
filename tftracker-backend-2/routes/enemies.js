@@ -1,15 +1,11 @@
 const express = require("express");
 const router = express.Router();
 const db = require('../db')
-const upload = require('../screenshot/upload')
-const analyzeImage = require('../screenshot/analyzeImage')
+const enemiesServices = require('../services/enemies_services')
 
 router.get('/screenshot', (req, res) => {
     try {
-        upload()
-        analyzeImage();
-        //update enemy info here
-        res.send({ message: "kekw" })
+        res.send(enemiesServices.screenshot())
     }
     catch (err) {
         console.log(err)
