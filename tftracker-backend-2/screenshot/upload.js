@@ -2,9 +2,8 @@ const screenshot = require('screenshot-desktop')
 const fs = require('fs');
 
 const upload = () => {
-  console.log('hi')
-  screenshot({ format: 'png' }).then((img) => {
-    fs.writeFile("screenshot/image.png", img, function (err) {
+  screenshot().then((img) => {
+    fs.writeFile("screenshot/image.jpg", img, function (err) {
       if (err) {
         return console.log(err);
       }
