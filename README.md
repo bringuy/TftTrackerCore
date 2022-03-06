@@ -19,4 +19,6 @@ The box at the top of the screen shows the player you are playing against curren
 
  ## Next Steps ##
 
+This application is still in progress, as I am in the middle of changing the backend from Django to Node.js
+
 The issue with this application is it requires the user to have two monitors, one to run the game and one to use the application. A way to solve this would be to use a screen recording software (ex. OpenCV) to constantly track the amount of opponents alive and enemies played recently.
