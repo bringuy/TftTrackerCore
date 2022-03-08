@@ -1,7 +1,6 @@
 # Ignoring main file with local file path
-tfttracker-backend/tftproject/enemies/views.py
 node_modules/
 image.png/
 .env
 *ServiceAccount.json
-screenshot/ServiceAccountToken.json
+tfttracker-backend-2/screenshot/ServiceAccountToken.json
